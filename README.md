@@ -20,9 +20,9 @@ Performed Exploratory Data Analysis and trained a model for predicting the likel
 
 ### Business Insights
 
--Model has good accuracy and precision
--Recall is bit less
--we can tweek threshold of model and find better values
--95% predicted values are correct
--Here more focus towards should be towards recall because our target variable is 'Personal Loan' , i.e whether the customer is accepting the personal loan or not. Here bank wants more people to accept personal loan (less number of False Negative), so that bank doesn't lose real customers who want to take loan. Hence the focus should be on increasing Recall. Here when we increase threshold from 0.5 to 0.6, Recall has increased from 0.65 to 0.72
+- Model has good accuracy and precision
+- Recall is bit less
+- We can tweek threshold of model and find better values
+- 95% predicted values are correct
+- Here more focus towards should be towards recall because our target variable is 'Personal Loan' , i.e whether the customer is accepting the personal loan or not. Here bank wants more people to accept personal loan (less number of False Negative), so that bank doesn't lose real customers who want to take loan. Hence the focus should be on increasing Recall. Here when we increase threshold from 0.5 to 0.6, Recall has increased from 0.65 to 0.72
 
